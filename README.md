@@ -14,7 +14,7 @@ I only have modified pin connection on my rpi, because I have a radio module con
 1. Login via SSH or via the console.
 2. Run the following command and Pi Switch will be setup and installed: 
 ```bash
-curl -sSL https://pisupp.ly/piswitchcode | sudo bash
+curl -sSL https://raw.githubusercontent.com/skichrome/Pi-Supply-Switch/master/install.sh | sudo bash
 ```
 
 With this new script any standard pin can be chosen to provide the function previusly covered by pins 7 and 8.
