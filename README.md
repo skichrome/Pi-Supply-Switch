@@ -21,15 +21,15 @@ With this new script any standard pin can be chosen to provide the function prev
 Within softshut.py you can change the assignement which by default is
 
 ```python
-PinSeven = 7
-PinEight = 11
+PinSeven = 20
+PinEight = 21
 ```
 
 This means that pin 7 coming from the Pi Switch goes to pin 7 on the Raspberry Pi and that pin 8 from the Pi Switch goes to pin 11 on the Raspberry Pi.
 
 ```
-PiSwitch 7 <---> RPi 7
-PiSwitch 8 <---> RPi 11
+PiSwitch 7 <---> RPi 20
+PiSwitch 8 <---> RPi 21
 ```
 
 Rememeber that the notation used is the physical notation only.
