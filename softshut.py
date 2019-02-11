@@ -8,9 +8,9 @@ from time import sleep
 # Map pin seven and eight on the Pi Switch PCB to chosen pins on the Raspberry Pi header
 # The PCB numbering is a legacy with the original design of the board
 # Pi pin 28 mapped on pin 7 on power supply, Pi pin 29 mapped on pin 8 on power supply
-PinSeven = 28
-PinEight = 29
-GPIO.setmode(GPIO.BOARD) # Set pin numbering to board numbering
+PinSeven = 20
+PinEight = 21
+GPIO.setmode(GPIO.BCM) # Set pin numbering to BCM numbering
 GPIO.setup(PinSeven, GPIO.IN) # Set up PinSeven as an input
 GPIO.setup(PinEight, GPIO.OUT, initial=1) # Setup PinEight as output
 
